@@ -27,13 +27,16 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     startpage.cpp \
-    accountmanager.cpp
+    accountmanager.cpp \
+    userpage.cpp
 
 HEADERS += \
         mainwindow.h \
     startpage.h \
-    accountmanager.h
+    accountmanager.h \
+    userpage.h
 
 FORMS += \
         mainwindow.ui \
-    startpage.ui
+    startpage.ui \
+    userpage.ui

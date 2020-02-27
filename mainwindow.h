@@ -7,6 +7,7 @@ namespace Ui {
 class MainWindow;
 }
 class StartPage;
+class UserPage;
 
 class MainWindow : public QMainWindow
 {
@@ -15,10 +16,12 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
+    // Access pages from here
+    StartPage *start;
+    UserPage *user_page;
 
 private:
     Ui::MainWindow *ui;
-    StartPage *start;
 };
 
 #endif // MAINWINDOW_H
